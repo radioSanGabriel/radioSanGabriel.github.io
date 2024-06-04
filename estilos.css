@@ -1,0 +1,331 @@
+/* estilos para el body*/
+body{
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+.bodyTabla{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+h2{
+    text-align: center;
+    margin-top: 300px;
+    font-size: 30px;
+    text-decoration:underline dotted;
+    margin-bottom: 30px;
+    font-family: "Orbitron", sans-serif;
+} 
+
+header {
+  box-shadow:0 2px 8px 0 #000;
+  background-color: #04102d;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+  width: 100%; 
+	left: 0; 
+	top: 0; 
+	position: fixed; 
+}
+
+.logo img {
+  height: 200px;
+  color: white;
+}
+
+.title {
+  flex: 1;
+  text-align: center;
+  font-size: 40px;
+}
+
+.radio {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.icon-radio {
+  font-weight: bold;
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.texto{
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.frequency {
+  margin-right: 10px;
+}
+
+.slogan {
+  text-align: center;
+  font-size: 12px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.botones button{
+    background-color: #0A2239;
+    box-shadow:0 8px 6px 0 #000;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.botones button:hover{
+    background-color: #eac447;
+    color: black;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 390px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+  box-shadow: inset 0 2px 8px 0 #000;
+  background-color: #292929;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: "Orbitron", sans-serif;
+}
+
+footer p {
+  width: 48%;
+  color: white;
+
+}
+
+footer a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: rgb(16, 8, 243);
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: rgb(247, 0, 255);
+}
+
+footer i{
+  font-size: 20px;
+}
+
+.btn-volver{
+    margin-bottom: 2rem;
+}   
+.btn-volver a{
+    background-color: #04102d;
+    color: #fff;
+    width: auto;
+    padding: 10px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+.btn-volver a:hover{
+    background-color: #03223e;
+    color:white;
+    width: auto;
+    padding: 10px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.tabla-container {
+    margin: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    
+}
+
+.tabla th,
+.tabla td {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+td{
+    text-align: center;
+    border: 2px solid  rgba(8, 8, 12, 0.2);
+}
+.columnDetalle{
+    width: 40%;
+}
+
+.align-left {
+    text-align: left;
+}
+
+thead td{
+    background-color:#0A2239;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid  rgba(255, 255, 255, 0.2);
+}
+tbody td{
+    background-color:#e8f089;
+    padding: 10px;
+    border: 1px solid  rgba(14, 14, 14, 0.967);
+}
+
+/* @media only screen and (max-width: 480px) {
+    header img {
+      width: 150px;
+      height: 40px;
+      margin-right:0px;
+      max-width: 90px;
+    }
+  
+    header h1 {
+      font-size: 24px;
+    }
+  
+    header p {
+      font-size: 14px;
+    }
+  
+    h2 {
+      margin: 20px;
+      font-size: 20px;
+    }
+
+    .botones button {
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .btn-volver{
+        margin-bottom: 2rem;
+        padding: 5px;
+    }   
+    .btn-volver a{
+        font-size: 16px;
+        background-color: #ef2d56;
+        color: #fff;
+        width: auto;
+        text-decoration: none;
+    }
+    .btn-volver a:hover{
+        background-color: #ad1435;
+        color:white;
+        width: auto;
+        text-decoration: none;
+        cursor: pointer;
+    }
+  
+    .tabla-container {
+      margin: 20px;
+      overflow-x: auto;
+    }
+  } */
+
+
+/* Estilos para dispositivos móviles en la segunda página HTML */
+@media only screen and (max-width: 375px) {
+  .logo img {
+      height: 40px; /* Ajusta el tamaño del logo para pantallas pequeñas */
+  }
+
+  header {
+        padding: 5px;
+        box-shadow:0 2px 8px 0 #000;
+        background-color: #04102d;
+        color: #fff;
+        padding: 5px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: "Orbitron", sans-serif;
+        width: 100%; 
+        left: 0; 
+        top: 0; 
+        position: fixed; 
+      
+  }
+
+  .title h1 {
+      font-size: 16px; /* Ajusta el tamaño del título para pantallas pequeñas */
+  }
+
+  .radio {
+      margin-right:2px; /* Ajusta el margen del contenedor de la radio para pantallas pequeñas */
+  }
+
+  .icon-radio {
+      font-size: 16px; /* Ajusta el tamaño del icono de radio para pantallas pequeñas */
+      margin-right: 5px; /* Ajusta el margen del icono de radio para pantallas pequeñas */
+  }
+
+  .texto {
+      font-size: 12px;
+      margin-right: 5px; /* Ajusta el margen del texto de la radio para pantallas pequeñas */
+  }
+
+  .frequency {
+      font-size: 12px; /* Ajusta el tamaño de la frecuencia para pantallas pequeñas */
+  }
+
+  .slogan {
+      font-size: 10px; /* Ajusta el tamaño del eslogan para pantallas pequeñas */
+  }
+
+  .btn-volver a {
+      width: auto; /* Ajusta el ancho del botón "Volver" para pantallas pequeñas */
+      padding: 10px; /* Ajusta el padding del botón "Volver" para pantallas pequeñas */
+      margin-top: 5px; /* Ajusta el margen superior del botón "Volver" para pantallas pequeñas */
+  }
+
+  .Tabla th,
+  .Tabla td {
+      padding: 10px; /* Ajusta el padding de las celdas de la tabla para pantallas pequeñas */
+  }
+
+  .columnDetalle {
+      width: 10%; /* Ajusta el ancho de la columna "Detalle" para pantallas pequeñas */
+  }
+
+  .align-left {
+      text-align: left; /* Alinea el texto a la izquierda en la tabla para pantallas pequeñas */
+  }
+
+  thead td {
+      padding: 5px; /* Ajusta el padding de las celdas de encabezado de la tabla para pantallas pequeñas */
+  }
+
+  tbody td {
+      padding: 5px; /* Ajusta el padding de las celdas del cuerpo de la tabla para pantallas pequeñas */
+  }
+}
