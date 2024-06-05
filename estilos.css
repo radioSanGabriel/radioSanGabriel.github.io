@@ -10,7 +10,6 @@ body {
   justify-content: space-between;
   min-height: 100vh;
 }
-
 h2 {
   text-align: center;
   margin-top: 300px;
@@ -34,12 +33,6 @@ header {
   top: 0;
   position: fixed;
 }
-
-.logo img {
-  height: 200px;
-  color: white;
-}
-
 .title {
   flex: 1;
   text-align: center;
@@ -68,7 +61,6 @@ header {
 .frequency {
   margin-right: 10px;
 }
-
 .slogan {
   text-align: center;
   font-size: 12px;
@@ -124,6 +116,7 @@ footer {
 footer p {
   width: 48%;
   color: rgb(19, 14, 14);
+  font-size: 10px;
 }
 
 footer a {
@@ -131,6 +124,7 @@ footer a {
   text-decoration: underline;
   color: rgb(22, 22, 24);
   margin: 10px;
+  
 }
 
 footer a:hover {
@@ -214,29 +208,52 @@ tbody td {
   font-family: "Montserrat", sans-serif;
 }
 
-.Nota{
+/* .Nota{
   display: flex;
   background-color: rgb(184, 178, 178);
   color:black;
   border:2px solid black;
-  width: 96%;
-  height: auto;
-  text-align: center;
   justify-content: center;
-  align-items: center;
-  padding: 2px; 
-  margin: 21px;
-  margin-bottom: 20px;
-  box-shadow: 0 8px 4px 0 #000;
+ 
   font-size: 18px;
   font-weight: bold;
-  font-family: "Orbitron", sans-serif;;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
+
+.Nota tr td{
+  background-color:rgb(184, 178, 178);
+  color: #000;
+  border:1px solid rgb(184, 178, 178);
+  padding: 5px;
+  font-family: "Orbitron", sans-serif;
+} */
+
+/* tbody.Nota{
+    background-color: rgb(184, 178, 178);
+    color:black;
+    border:2px solid black;
+    box-shadow: 0 8px 4px 0 #000;
+    font-size: 18px;
+    font-weight: bold;
+  }  */
+  
+  #columna tr{
+    border:4px solid red;
+  } 
+
+  #columna td{
+    background-color:rgb(184, 178, 178);
+    font-family: "Orbitron", sans-serif;
+    color: black;
+    font-weight: bold;
+  }
 
 /* Estilos para celular */
 @media only screen and (min-width: 0px) {
   .logo {
     width: 50px !important;
+    transform: scale(1);
   }
   header img {
     object-fit: contain;
@@ -275,14 +292,14 @@ tbody td {
   }
   .btn-volver a {
     font-size: 12px;
-    background-color: #ef2d56;
+    background-color: #133686;
     color: #fff;
     width: auto;
     text-decoration: none;
     padding: 8px 15px;
   }
   .btn-volver a:hover {
-    background-color: #ad1435;
+    background-color: #03223e;
     color: white;
     scale: 1.05;
     text-decoration: none;
@@ -298,7 +315,6 @@ tbody td {
     padding: 4px;
   }
 
-
   thead td {
     padding: 8px;
     font-size: 1rem;
@@ -313,18 +329,22 @@ tbody td {
     font-family: "Montserrat", sans-serif;
   }
   footer p {
-    font-size: 13px;
+    font-size: 10px;
   }
+
   footer p:nth-child(2) {
     display: flex;
     flex-wrap: wrap;
   }
+
+  
 }
 
 /* Estilos para celular */
 @media only screen and (min-width: 430px) {
   .logo {
     width: 50px !important;
+    transform: scale(1);
   }
   header img {
     object-fit: contain;
@@ -363,14 +383,14 @@ tbody td {
   }
   .btn-volver a {
     font-size: 12px;
-    background-color: #ef2d56;
+    background-color: #133686;
     color: #fff;
     width: auto;
     text-decoration: none;
     padding: 8px 15px;
   }
   .btn-volver a:hover {
-    background-color: #ad1435;
+    background-color: #03223e;
     color: white;
     scale: 1.05;
     text-decoration: none;
@@ -385,7 +405,6 @@ tbody td {
   .tabla td {
     padding: 4px;
   }
-
 
   thead td {
     padding: 8px;
@@ -413,6 +432,7 @@ tbody td {
 @media only screen and (min-width: 768px) {
   .logo {
     width: 60px !important;
+    transform: scale(1);
   }
   header img {
     object-fit: contain;
@@ -450,14 +470,14 @@ tbody td {
   }
   .btn-volver a {
     font-size: 12px;
-    background-color: #ef2d56;
+    background-color: #133686;
     color: #fff;
     width: auto;
     text-decoration: none;
     padding: 8px 15px;
   }
   .btn-volver a:hover {
-    background-color: #ad1435;
+    background-color: #03223e;
     color: white;
     scale: 1.05;
     text-decoration: none;
@@ -472,7 +492,6 @@ tbody td {
   .tabla td {
     padding: 4px;
   }
-
 
   thead td {
     padding: 8px;
@@ -490,6 +509,7 @@ tbody td {
   footer p {
     font-size: 13px;
   }
+
   footer p:nth-child(2) {
     display: flex;
     flex-wrap: wrap;
@@ -499,6 +519,7 @@ tbody td {
 @media only screen and (min-width: 1050px) {
   .logo {
     width: 60px !important;
+    transform: scale(1.3);
   }
   header img {
     object-fit: contain;
@@ -538,14 +559,14 @@ tbody td {
   }
   .btn-volver a {
     font-size: 20px;
-    background-color: #ef2d56;
+    background-color: #133686;
     color: #fff;
     width: auto;
     text-decoration: none;
     padding: 8px 15px;
   }
   .btn-volver a:hover {
-    background-color: #ad1435;
+    background-color: #03223e;
     color: white;
     scale: 1.05;
     text-decoration: none;
@@ -587,6 +608,7 @@ tbody td {
 @media only screen and (min-width: 1060px) {
   .logo {
     width: 120px !important;
+    transform: scale(1.4);
   }
   header img {
     object-fit: contain;
@@ -625,14 +647,14 @@ tbody td {
   }
   .btn-volver a {
     font-size: 20px;
-    background-color: #ef2d56;
+    background-color: #133686;
     color: #fff;
     width: auto;
     text-decoration: none;
     padding: 8px 15px;
   }
   .btn-volver a:hover {
-    background-color: #ad1435;
+    background-color: #03223e;
     color: white;
     scale: 1.05;
     text-decoration: none;
