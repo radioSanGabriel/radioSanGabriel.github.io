@@ -31,7 +31,6 @@ header {
   width: 100%;
   left: 0;
   top: 0;
-  position:static;
 }
 .title {
   flex: 1;
@@ -276,7 +275,7 @@ tbody td {
 
   h2 {
     margin: 20px;
-    margin-top: 10rem;
+    margin-top:1rem;
     font-size: 20px;
   }
 
@@ -367,7 +366,7 @@ tbody td {
 
   h2 {
     margin: 20px;
-    margin-top: 6rem;
+    margin-top:1rem;
     font-size: 20px;
   }
 
@@ -454,7 +453,7 @@ tbody td {
 
   h2 {
     margin: 20px;
-    margin-top: 7rem;
+    margin-top:1rem;
     font-size: 20px;
   }
 
@@ -542,7 +541,7 @@ tbody td {
 
   h2 {
     margin: 20px;
-    margin-top: 7rem;
+    margin-top:1rem;
     font-size: 20px;
   }
 
@@ -630,7 +629,7 @@ tbody td {
 
   h2 {
     margin: 20px;
-    margin-top: 11rem;
+    margin-top:1rem;
     font-size: 29px;
   }
 
